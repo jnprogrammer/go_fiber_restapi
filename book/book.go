@@ -9,7 +9,7 @@ func GetBooks(c *fiber.Ctx) {
 }
 
 func GetBook(c *fiber.Ctx) {
-	c.Send("Single books")
+	c.Send("Single book")
 }
 
 func NewBook(c *fiber.Ctx) {
